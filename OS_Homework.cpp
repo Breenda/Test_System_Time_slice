@@ -1,4 +1,13 @@
-#include "stdafx.h"
+#include <iostream>
+#include <stdio.h>
+#include <tchar.h>
+#include <time.h>
+#include <Windows.h>
+
+#include <windows.h>  
+#include <time.h> 			//time_t time()  clock_t clock()  
+#include <Mmsystem.h>             	//timeGetTime()  
+#pragma comment(lib, "Winmm.lib")   	//timeGetTime()  
 
 using namespace std;
 typedef LARGE_INTEGER ll;
